@@ -4,8 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Walter Nunes Filho</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:500,100' rel='stylesheet' type='text/css'>
+  
+  <link href='https://fonts.googleapis.com/css?family=Overpass:400,300,200,100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,18 +16,50 @@
 	<div class="container">
 		<header class="header-box row">
 			<div class="col-xs-2">
-				<img class="header-logo" src="./images/udacity_logo.png" alt="Logo">
+				<img src="./img/udacity_logo.png" class="header-logo" alt="Logo">
 			</div>
 			<div class="col-xs-10 text-right text-uppercase pull-right">
 				<h1 class="header-title">Walter Nunes Filho</h1>
-				<h4 class="header-sub">Full stack developer</h3>
+				<h4 class="header-sub">Full stack developer</h4>
 			</div>
 		</header>
 		
-		<main>
+		<main class="feature-work-area">
+			<div class="row">
+				<div class="col-xs-12">
+					<img src="./img/banner.png" class="img-responsive" alt="Banner">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="feature-work-title">Featured Work</h2>
+				</div> 
+			</div>
+			
+			<div class="row">
+				<section class="work-box col-sm-4 text-center">
+					<a class="work" href="https://bitbucket.org/jwnunes/sunshine" target="_blank">
+						<img class="img-responsive" src="./img/work1.png" alt="Sunshine">
+					<h3 class="work-title text-uppercase">Sunshine</h3>
+					</a>
+				</section>
 				
+				<section class="work-box col-sm-4 text-center">
+					<a class="work" href="https://bitbucket.org/jwnunes/cine-movies" target="_blank">
+						<img class="img-responsive" src="./img/work2.png" alt="Cine Movies">
+					<h3 class="work-title text-uppercase">Cine Movies</h3>
+					</a>
+				</section>										
+				
+				<section class="work-box col-sm-4 text-center">
+					<a class="work" href="https://github.com/walternunes/Angular2/tree/master/Recipe-Book" target="_blank">
+						<img class="img-responsive" src="./img/work3.png" alt="Recipe Book">
+					<h3 class="work-title text-uppercase">Recipe Book</h3>
+					</a>
+				</section>
+			</div>
 		</main>
-		
 	</div>
 </body>
 </html>
